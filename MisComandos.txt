@@ -5,11 +5,19 @@ cat [file1] [file2]; Tienes la "fución" entre estos 2 en un output en la Termin
 cat -b: Muestra todas las líneas del archivo **(escritas & vacías)**
 
 
+
+
+
+
 file: Da una breve explicación del tipo de archivo
 
 
 find: Creo que es un comando que se usa junto con los wildcards
         ejemplo: find *.js
+
+
+
+
 
 
 explorer.exe:
@@ -20,22 +28,45 @@ wslview:
 	Una combinación de ambos.
 
 
-#Que tipo de tipo de comando es
+######Que tipo de tipo de comando es
 
 Gracias a type es posible.
+
+
+
+
 
 ######Función de la Shell:
 - Son externas
 - Al escribir type saldrá: **X is /Usr/bin/X**
+
 
 ######Un Comando de Utilidad de la Shell:
 - Son nativas
 - Al escribir type saldrá: **Z is a shell builtin**
 
 
+
+
+
 file: Para saber que tipo de archivo es.
 type: Para averiguar cual de los 4 posibles "tipos de comando" es uno.
 > ~~Aún no se como saber como identificar un binario~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #Comandos de Ayuda
 
@@ -43,6 +74,16 @@ man: El manual del comando.
 help: Ideal para los Comandos de Utilidad de la Shell. Sometimes "run-help"
 info: Descripción del comando. 
 whatis: Una descripción de una sola línea. 
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -67,7 +108,7 @@ Son los siguientes *, ?, [], [[:clase:]]
 
 
 
-##El Comando WC
+######Comando WC
 
 LoWoMoCo | Acronimo + o's
 
@@ -91,7 +132,17 @@ repeat # {acción}:
 	De este modo podemos repetir una acción n cantidad de veces
 
 
-#Operadores de Control
+
+
+
+
+
+
+
+
+
+
+######Operadores de Control
    INCONDICIONALES
 
 	&: Asincrono. Se ejcutan de forma paralela. 
@@ -102,10 +153,26 @@ repeat # {acción}:
 	||: Con que uno se ejecute ya chingo.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ######Permisos de Archivos
 Nos enfocaremos en el Usuario Owner                Terminal, VSC, EAW
 
 -RWX          ARCHIVO -        CARPETA D
+
+
+
+
 
 
 
@@ -156,7 +223,4 @@ Marzo 17 2024
 .
 
 vimtutor para ver un tutorial de ello.
-
-
-
 
