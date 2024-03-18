@@ -1,0 +1,162 @@
+RECUERDA: LA MAYORÍA DE ESTAS COSAS SE PUEDEN COMBINAR
+
+cat file; Todo normal
+cat [file1] [file2]; Tienes la "fución" entre estos 2 en un output en la Terminal.
+cat -b: Muestra todas las líneas del archivo **(escritas & vacías)**
+
+
+file: Da una breve explicación del tipo de archivo
+
+
+find: Creo que es un comando que se usa junto con los wildcards
+        ejemplo: find *.js
+
+
+explorer.exe:
+	Para abrir el Explorador de Archivos de Windows (EAW) 
+code:
+	Para abrir VSC desde la Terminal
+wslview:
+	Una combinación de ambos.
+
+
+#Que tipo de tipo de comando es
+
+Gracias a type es posible.
+
+######Función de la Shell:
+- Son externas
+- Al escribir type saldrá: **X is /Usr/bin/X**
+
+######Un Comando de Utilidad de la Shell:
+- Son nativas
+- Al escribir type saldrá: **Z is a shell builtin**
+
+
+file: Para saber que tipo de archivo es.
+type: Para averiguar cual de los 4 posibles "tipos de comando" es uno.
+> ~~Aún no se como saber como identificar un binario~~
+
+#Comandos de Ayuda
+
+man: El manual del comando. 
+help: Ideal para los Comandos de Utilidad de la Shell. Sometimes "run-help"
+info: Descripción del comando. 
+whatis: Una descripción de una sola línea. 
+
+
+
+#*Wildcards*
+
+Los wildcards buscan hasta en 2 niveles. 
+-d: Flag para solo hacer busquedás en el mismo nivel.
+
+Son los siguientes *, ?, [], [[:clase:]]
+
+*: Para todo caracter alfanúmerico Que inicie con (star*) o Que termine con (*end) & Que inicie con tal y que termine con tal (star*end)
+
+?: Bueno para buscar palabras que terminen similares y al final cambien un poco (ls *a????) = ardilla.css mana.txt reloja.css
+
+[]: 1.Busca entre todas sus opciones [1,5] 1 o 5  2.Busca dentro de un rango [1-4] 1, 2, 3, 4
+
+
+
+
+
+
+
+
+
+##El Comando WC
+
+LoWoMoCo | Acronimo + o's
+
+Al ejecutarlo en un archivo (en carpetas no va bien) nos da tres cantidades; *Líneas llenas o vacías*, *cantidad de caracteres alfanúmericos*, *peso de caracteres en bytes* respectivamente.
+
+*-c*; (--bytes)
+     Print only the byte counts.
+
+*-m*; (--chars)
+     Print only the character counts.
+
+*-w* (--words)
+     Print only the word counts.
+
+*-l* (--lines)
+	Print only the newline counts.
+
+
+
+repeat # {acción}:
+	De este modo podemos repetir una acción n cantidad de veces
+
+
+#Operadores de Control
+   INCONDICIONALES
+
+	&: Asincrono. Se ejcutan de forma paralela. 
+	; Sincrono. Ejecuta uno tras el otro de forma secuencial
+   CONDICIONALES 
+
+	&&: Ejecuta todos de forma paralela
+	||: Con que uno se ejecute ya chingo.
+
+
+######Permisos de Archivos
+Nos enfocaremos en el Usuario Owner                Terminal, VSC, EAW
+
+-RWX          ARCHIVO -        CARPETA D
+
+
+
+
+
+
+######Enlaces Simbolicos
+
+Así se crean: 
+	ln -s [rutaAbsoluta] [NameEnlaceSimbolico]
+Delete
+	rm [linkSimbolicoName]
+
+
+
+
+
+
+######Agregar Binarios a Path
+
+PATH=$PATH:[RUTA DEL BINARIO]
+path es igual al path acutal y agrega este nuevo programa, ruta, binario
+
+
+
+
+######FIND
+
+find (ruta) (segmentos [opciones]) (a wildcard)
+
+
+
+
+Marzo 17 2024 
+ 
+######Sobre VIM & VI.
+
+- Bueno para escribir solo se usar la tecla I
+- Para entrar en modo Normal se usar Esc or Ctrl + C
+- Para entrar a modo interactivo solo se usa la Tecla I
+
+- Usando / en el modo Normal podemos buscar la 1° coindidencia, nada más.
+
+
+
+
+
+.
+
+vimtutor para ver un tutorial de ello.
+
+
+
+
