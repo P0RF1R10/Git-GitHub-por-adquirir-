@@ -1,1 +1,3 @@
 Se me ocurrio una mejor idea, tener a ambos archivos dentro del mismo repositorio 
+
+Dos línea nuevas, una vacio y esta ocupada. 26 palabras en total 
