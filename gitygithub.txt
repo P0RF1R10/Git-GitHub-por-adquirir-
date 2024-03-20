@@ -1,0 +1,1 @@
+Se me ocurrio una mejor idea, tener a ambos archivos dentro del mismo repositorio 
