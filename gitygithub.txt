@@ -7,4 +7,6 @@ Dos línea nuevas, una vacio y esta ocupada. 26 palabras en total
 4
 5Por aquí agregaré los pruebas 
 6
-7 
+7 Por alguna razón no funciono, Entonces por ahora lo dejaré cuando regrese a experimentar 
+ 
+Wed Mar 20 13:27:12 CST 2024
