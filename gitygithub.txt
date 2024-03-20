@@ -1,3 +1,10 @@
 Se me ocurrio una mejor idea, tener a ambos archivos dentro del mismo repositorio 
 
-Dos línea nuevas, una vacio y esta ocupada. 26 palabras en total 
+Dos línea nuevas, una vacio y esta ocupada. 26 palabras en total
+1
+2 He agregado 7 linea nuevas para verificar que git log --stat solo le importa cuantas líneas son agregadas o elinadas
+3
+4
+5Por aquí agregaré los pruebas 
+6
+7 
