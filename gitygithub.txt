@@ -1,12 +1,13 @@
 Se me ocurrio una mejor idea, tener a ambos archivos dentro del mismo repositorio 
 
-Dos línea nuevas, una vacio y esta ocupada. 26 palabras en total
-1
-2 He agregado 7 linea nuevas para verificar que git log --stat solo le importa cuantas líneas son agregadas o elinadas
-3
-4
-5Por aquí agregaré los pruebas 
-6
-7 Por alguna razón no funciono, Entonces por ahora lo dejaré cuando regrese a experimentar 
- 
-Wed Mar 20 13:27:12 CST 2024
+
+git init: Inicia el repositorio de Git & Crea el directorio .git
+git add: Manda los cambios a staging area
+git commit -m "mensaje": Guarda los cambios 
+
+----
+
+
+
+
+	
