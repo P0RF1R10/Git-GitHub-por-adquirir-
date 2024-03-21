@@ -1,11 +1,32 @@
 Se me ocurrio una mejor idea, tener a ambos archivos dentro del mismo repositorio 
 
 
+Git 
+	Progrma inventado por Linus Torvalds, mismo x de Linux
+
+
 git init: Inicia el repositorio de Git & Crea el directorio .git
 git add: Manda los cambios a staging area
 git commit -m "mensaje": Guarda los cambios 
 
 ----
+
+######Estados de un Archivo
+
+####Untracked
+Unstaged
+Tracked
+Staged
+Commited
+
+
+Secciones del Flujo de Trabajo con Git
+
+Working directory
+
+Staging Area
+
+Repositorio | Directorio .git
 
 
 

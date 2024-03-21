@@ -1,0 +1,13 @@
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   Git_and_GitHub.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	fileuntracked.txt
+
+Este segundo muestra que los archivos untracked solo son los archivos totalmente nuevos para Git, que nunca han sido afectado por git add, mucho menos por git commmit. 
+
+
+
