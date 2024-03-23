@@ -42,4 +42,10 @@ git reset --soft
 
 Esto es un comando que borra archivos y nada más que eso.
 
+
+######Git Reset HEAD
+Funciona similar a git rm --cached
+
+Quita los cambios que este guardados en el area de staging, pero los deja en el working directory. 
+
 	
