@@ -38,6 +38,8 @@ git reset --soft
 	Borra todo hasta la vesión que especificamente te dirijas, pero deja los cambios en el staging area
 
 
+######Git rm
 
+Esto es un comando que borra archivos y nada más que eso.
 
 	
