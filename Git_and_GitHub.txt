@@ -29,6 +29,15 @@ Staging Area
 Repositorio | Directorio .git
 
 
+######Git Reset
+git reset --hard
+	Borra todo hasta la versión que especificmanete te dirijas 
+git reset --mixed
+	Borra todo hasta la versión que especificamente te dirijas, pero deja los cambios en el working directory
+git reset --soft
+	Borra todo hasta la vesión que especificamente te dirijas, pero deja los cambios en el staging area
+
+
 
 
 	
