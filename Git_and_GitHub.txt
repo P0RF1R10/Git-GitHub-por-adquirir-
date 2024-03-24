@@ -48,4 +48,27 @@ Funciona similar a git rm --cached
 
 Quita los cambios que este guardados en el area de staging, pero los deja en el working directory. 
 
+
+
+######Git Merge
+
+Te tienes que ubicar el la rama "principal" (la que quieres que se "coma" a la otra rama), después de eso ejecuta: 
+
+
+RECUERDA: Esta en la rama "Principal"
+Sintaxis 
+	git merge [branchSecond]
+
+
+
+
+
+#######
+
+
+
+
+
+
+
 	
