@@ -1,4 +1,18 @@
 Quiero intentar algo con git branch y merge 
 
 
+#######Comandos para trabajar con Ramas
+
+git branch [newBranchName]
+	Crear una nueva rama 
+git branch [branchName]
+	Moverte a tal rama
+git checkout -b [newBranchName]
+	Crear y moverte a una nueva rama
+git checkout [SHA]
+	Saltar a una version de la rama
+git switch -c [newBranchName]
+	Crear una nueva rama 
+git switch [branchName]
+	Saltar a una rama
 
