@@ -59,14 +59,14 @@ RECUERDA: Esta en la rama "Principal"
 Sintaxis 
 	git merge [branchSecond]
 
+Al hacer git merge se creará un nuevo commit
+La rama fusionada, embebida en otra seguirá ahí, quieta en el tiempo.
+
 
 
 
 
 #######
-
-
-
 
 
 
