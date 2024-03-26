@@ -224,3 +224,7 @@ Marzo 17 2024
 
 vimtutor para ver un tutorial de ello.
 
+
+
+Solo quiero ver si desde un Link Simbolico puedo hacer cambios y que se reflejen en el archivo original (que ya esta en un repositorio de Git)
+
