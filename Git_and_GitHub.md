@@ -69,6 +69,8 @@ La rama fusionada, embebida en otra seguirá ahí, quieta en el tiempo.
 #######
 
 
-
+####Cambiar de nombre a una rama
+git branch -m master main
+git branch -m [branchName] [newBranchName]
 
 	
