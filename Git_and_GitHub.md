@@ -65,12 +65,34 @@ La rama fusionada, embebida en otra seguirá ahí, quieta en el tiempo.
 
 
 
-
-#######
-
-
 ####Cambiar de nombre a una rama
 git branch -m master main
 git branch -m [branchName] [newBranchName]
 
-	
+
+
+
+<!--
+Sun Mar 24 11:30:48 CST 2024
+
+Estoy creando el los examenes de mis pauntes bien apuntados. Me dí cuenta que esto bienpude hacerlo cuando estaba haciendo el apunte.
+Voy a crear los examenes de este curso y/o Ya iré a explerimentar con con el Curso de Terminal. 
+
+La verdad creo que sería mejor ir a experimentar con la Terminal y luego voler aquí. Porque estar haciendo examens solo eso, ya no me parece una gran idea
+
+
+A futuro lo que hare es 
+VEr la Clase
+Hacer el apunte (Un buen apunte)
+Clramente el el resumen 
+Hacer tambíen el examen (aunque esto lo dudo, siento que Pablo Lomeli me dirá que lo deje de hacer)
+---
+Ir directamente a experimentar/pracitcar/hacer mis proyuectos (experenica pues)
+
+
+
+Aprender > Apuntar > Experncia
+
+
+La asesoría de Pablo Lomeli esta pendiente
+-->
