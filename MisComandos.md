@@ -1,49 +1,58 @@
 RECUERDA: LA MAYORÍA DE ESTAS COSAS SE PUEDEN COMBINAR
 
-cat file; Todo normal
-cat [file1] [file2]; Tienes la "fución" entre estos 2 en un output en la Terminal.
-cat -b: Muestra todas las líneas del archivo **(escritas & vacías)**
 
 
+####Flags (Que en la mayoría de los casos son compatible)
+	-r; Recursivo: Recomendado para directorio
+	flag; NameFlag:...
 
 
+######Primeros pasos en la Terminal
+
+cp; Copiar un archivo
+	cp [fileACopiar] [newNamefilepirata]
+	
+
+cat [file]; Muestra el contenido del archivo. 
+cat [file1] [file2]; Se puede hacer con más archivos al mismo tiempo. 
+cat -b: Cuenta y muestra las líneas del archivo **con contenido**.
 
 
-file: Da una breve explicación del tipo de archivo
+#file
+file [file]; Da una breve explicación del tipo de archivo.
 
+######Herramientas de la Terminal
+
+#####explorer.exe:
+	Para abrir el Explorador de Archivos de Windows (EAW) 
+#####code:
+	Para abrir VSC desde la Terminal
+#####wslview:
+	Una combinación de ambos.
 
 find: Creo que es un comando que se usa junto con los wildcards
         ejemplo: find *.js
 
 
 
-
-
-
-explorer.exe:
-	Para abrir el Explorador de Archivos de Windows (EAW) 
-code:
-	Para abrir VSC desde la Terminal
-wslview:
-	Una combinación de ambos.
-
-
-######Que tipo de tipo de comando es
-
 Gracias a type es posible.
 
+######¿Qué es un Comando?
 
-
-
-
-######Función de la Shell:
-- Son externas
+#####Un Comando de Utilidad de la Shell:
+- Son internas
 - Al escribir type saldrá: **X is /Usr/bin/X**
 
-
-######Un Comando de Utilidad de la Shell:
-- Son nativas
+#####Función de la Shell:
 - Al escribir type saldrá: **Z is a shell builtin**
+- Son externas
+
+#####Un programa ejecutable
+
+#####Un alias
+
+
+
 
 
 
