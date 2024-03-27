@@ -1,4 +1,6 @@
-RECUERDA: LA MAYORÍA DE ESTAS COSAS SE PUEDEN COMBINAR
+RECUERDA: 
+>LA MAYORÍA DE ESTAS COSAS SE PUEDEN COMBINAR
+>SOLO ANOTA LAS COSAS QUE AÚN NO SE APRENDES, NO PIERDAS TIEMPO ESCRIBIENDO LO MISMO ALWAYS.
 
 
 
@@ -66,11 +68,24 @@ Gracias a <type> es posible indentificar si una Función de la Shell, Un comando
 > ~~Aún no se como saber como identificar un binario~~
 
 
-}}}}}}}}}}}}
+#####Anatomía de Un Comando
+[Comando] [opciones] [Argumentos]
+  [cat]      [-b]   [historia.txt]
+
+Comando; Nombre con el que se invoca el comando.
+
+flags;Que modifican el comportamiento del comando. (Son opcionales).
+
+Argumentos; Sobre los que actúa el comando. (También opcionales).
 
 
+######Wildcards
+>Serie de patrones o Caracteres especiales que permiten hacer búsquedas avanzadas.
 
+#####ls *
+Enlistará algo que tenga delante o atrás del asterisco. 
 
+#####
 
 
 
@@ -240,12 +255,3 @@ vimtutor para ver un tutorial de ello.
 
 Solo quiero ver si desde un Link Simbolico puedo hacer cambios y que se reflejen en el archivo original (que ya esta en un repositorio de Git)
 
-######Anatomía de Un Comando
-[Comando] [opciones] [Argumentos]
-  [cat]      [-b]   [historia.txt]
-
-Comando; Nombre con el que se invoca el comando.
-
-flags;Que modifican el comportamiento del comando. (Son opcionales).
-
-Argumentos; Sobre los que actúa el comando. (También opcionales).
