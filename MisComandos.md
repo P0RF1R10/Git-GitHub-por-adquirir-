@@ -32,38 +32,41 @@ file [file]; Da una breve explicación del tipo de archivo.
 
 find: Creo que es un comando que se usa junto con los wildcards
         ejemplo: find *.js
-
-
-
-Gracias a type es posible.
+ 
 
 ######¿Qué es un Comando?
 
 #####Un Comando de Utilidad de la Shell:
-- Son internas
-- Al escribir type saldrá: **X is /Usr/bin/X**
-
-#####Función de la Shell:
 - Al escribir type saldrá: **Z is a shell builtin**
-- Son externas
+- Son extranjeros, externas.
+
+#####Una Función de la Shell:
+- Al escribir type saldrá: **X is /Usr/bin/X**
+>Z es un shell integrado, incorporado, ...
+- Son nativos, internas.
+
 
 #####Un programa ejecutable
+	Un binario, un programa. 
+	La mayoría estan en la ruta /User/Bin	
 
 #####Un alias
 
 
+####type
+Un Comando de Utilidad de la Shell
+
+Comando que sirve para identificar que tipo de comando son otros (solo sirve para Un Comando de Utilidad de la Shell, Una Función de la Shell, Un Alias)
+Gracias a <type> es posible indentificar si una Función de la Shell, Un comando de Utilidad de la Shell, Un alias.
 
 
+>file: Para saber que tipo de archivo es.
+>type: Para averiguar cual de los 3 posibles "tipos de comando" es uno.
 
-
-
-
-file: Para saber que tipo de archivo es.
-type: Para averiguar cual de los 4 posibles "tipos de comando" es uno.
 > ~~Aún no se como saber como identificar un binario~~
 
 
-
+}}}}}}}}}}}}
 
 
 
@@ -237,3 +240,12 @@ vimtutor para ver un tutorial de ello.
 
 Solo quiero ver si desde un Link Simbolico puedo hacer cambios y que se reflejen en el archivo original (que ya esta en un repositorio de Git)
 
+######Anatomía de Un Comando
+[Comando] [opciones] [Argumentos]
+  [cat]      [-b]   [historia.txt]
+
+Comando; Nombre con el que se invoca el comando.
+
+flags;Que modifican el comportamiento del comando. (Son opcionales).
+
+Argumentos; Sobre los que actúa el comando. (También opcionales).
