@@ -4,12 +4,13 @@ RECUERDA:
 
 
 
-####Flags (Que en la mayoría de los casos son compatible)
+#### Flags 
+### (Que en la mayoría de los casos son compatible)
 	-r; Recursivo: Recomendado para directorio
 	flag; NameFlag:...
 
 
-######Primeros pasos en la Terminal
+# Primeros pasos en la Terminal
 
 cp; Copiar un archivo
 	cp [fileACopiar] [newNamefilepirata]
@@ -19,43 +20,48 @@ cat [file]; Muestra el contenido del archivo.
 cat [file1] [file2]; Se puede hacer con más archivos al mismo tiempo. 
 cat -b: Cuenta y muestra las líneas del archivo **con contenido**.
 
+## ls -R
+> Buscar/Enlistar de forma recursiva
+	En todas partes se adentrará, pues. 
+---
 
-#file
+
+# file
 file [file]; Da una breve explicación del tipo de archivo.
 
-######Herramientas de la Terminal
+###### Herramientas de la Terminal
 
-#####explorer.exe:
+##### explorer.exe:
 	Para abrir el Explorador de Archivos de Windows (EAW) 
-#####code:
+##### code:
 	Para abrir VSC desde la Terminal
-#####wslview:
+##### wslview:
 	Una combinación de ambos.
 
 find: Creo que es un comando que se usa junto con los wildcards
         ejemplo: find *.js
  
 
-######¿Qué es un Comando?
+# ¿Qué es un Comando?
 
-#####Un Comando de Utilidad de la Shell:
+##### Un Comando de Utilidad de la Shell:
 - Al escribir type saldrá: **Z is a shell builtin**
 - Son extranjeros, externas.
 
-#####Una Función de la Shell:
+##### Una Función de la Shell:
 - Al escribir type saldrá: **X is /Usr/bin/X**
 >Z es un shell integrado, incorporado, ...
 - Son nativos, internas.
 
 
-#####Un programa ejecutable
+##### Un programa ejecutable
 	Un binario, un programa. 
 	La mayoría estan en la ruta /User/Bin	
 
-#####Un alias
+##### Un alias
 
 
-####type
+# type
 Un Comando de Utilidad de la Shell
 
 Comando que sirve para identificar que tipo de comando son otros (solo sirve para Un Comando de Utilidad de la Shell, Una Función de la Shell, Un Alias)
@@ -68,18 +74,21 @@ Gracias a <type> es posible indentificar si una Función de la Shell, Un comando
 > ~~Aún no se como saber como identificar un binario~~
 
 
-#####Anatomía de Un Comando
+# Anatomía de Un Comando
 [Comando] [opciones] [Argumentos]
   [cat]      [-b]   [historia.txt]
 
-Comando; Nombre con el que se invoca el comando.
+#### Comando
+Nombre con el que se invoca el comando.
 
-flags;Que modifican el comportamiento del comando. (Son opcionales).
+#### flags
+Que modifican el comportamiento del comando. (Son opcionales).
 
-Argumentos; Sobre los que actúa el comando. (También opcionales).
+#### Argumentos
+Sobre los que actúa el comando. (También opcionales).
 
 
-######Wildcards
+# Wildcards
 <!--
 	Los wildcards buscan hasta en 2 niveles. 
 -d: Flag para solo hacer busquedás en el mismo nivel.
@@ -95,18 +104,35 @@ Son los siguientes *, ?, [], [[:clase:]]
 
 []: **Corchetes**
 
-1) [1,5]   |   1 o 5
+1) [1,5]   |   1 y 5
 	Busca entre todas sus **opciones**  
 2) [1-4]   |  1, 2, 3, 4   
 	Busca dentro de **un rango**
+>Parece que solo sirve para buscar en un rango.
+
+Este se parece a las llaves {1..2} 
+>Que es para crear archivos, etc, 
+
+---
+
+#### Llavez {}
+Funciona para hacer varios archivo a la vez.
+touch file{1,5}.md
+Resultado 
+file1.md file2.md
+
+## Clases
+ls [[:alnum]] 
+	Para alfanúmericos
+ls [[:alpha:]]
+	Para alfabeticos
 
 
-###### Comando Para Encontrar Archivos
+# Comando Para Encontrar Archivos
+> Enlistar de forma recursiva todos los archivos | Encuentra el archivo tipo file nombrado que termine con .md
 
->ls -Rl | find type -f -name "*.md"
-
-
-\*Enlistar de forma recursiva todos los archivos | Encuentra el archivo tipo file nombrado que termine con .md\*
+#### ls -rl | find type -f -name "*.md"**
+---
 
 ######Comandos de Ayuda
 
