@@ -80,58 +80,33 @@ Argumentos; Sobre los que actúa el comando. (También opcionales).
 
 
 ######Wildcards
+<!--
+	Los wildcards buscan hasta en 2 niveles. 
+-d: Flag para solo hacer busquedás en el mismo nivel.
+-->
 >Serie de patrones o Caracteres especiales que permiten hacer búsquedas avanzadas.
 
-#####ls *
-Enlistará algo que tenga delante o atrás del asterisco. 
 
-#####
+Son los siguientes *, ?, [], [[:clase:]]
+
+- Que inicie con tal y que termine con tal (star*end)
+
+?: Funciona como sustitudo de cualquier caracter. 
+
+[]: **Corchetes**
+
+1) [1,5]   |   1 o 5
+	Busca entre todas sus **opciones**  
+2) [1-4]   |  1, 2, 3, 4   
+	Busca dentro de **un rango**
 
 
-
-
-
-
-
-
-
-#Comandos de Ayuda
+######Comandos de Ayuda
 
 man: El manual del comando. 
 help: Ideal para los Comandos de Utilidad de la Shell. Sometimes "run-help"
 info: Descripción del comando. 
 whatis: Una descripción de una sola línea. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-#*Wildcards*
-
-Los wildcards buscan hasta en 2 niveles. 
--d: Flag para solo hacer busquedás en el mismo nivel.
-
-Son los siguientes *, ?, [], [[:clase:]]
-
-*: Para todo caracter alfanúmerico Que inicie con (star*) o Que termine con (*end) & Que inicie con tal y que termine con tal (star*end)
-
-?: Bueno para buscar palabras que terminen similares y al final cambien un poco (ls *a????) = ardilla.css mana.txt reloja.css
-
-[]: 1.Busca entre todas sus opciones [1,5] 1 o 5  2.Busca dentro de un rango [1-4] 1, 2, 3, 4
-
-
-
-
-
-
 
 
 
@@ -157,14 +132,6 @@ Al ejecutarlo en un archivo (en carpetas no va bien) nos da tres cantidades; *L�
 
 repeat # {acción}:
 	De este modo podemos repetir una acción n cantidad de veces
-
-
-
-
-
-
-
-
 
 
 
