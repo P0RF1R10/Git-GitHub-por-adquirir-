@@ -132,6 +132,8 @@ ls [[:alpha:]]
 > Enlistar de forma recursiva todos los archivos | Encuentra el archivo tipo file nombrado que termine con .md
 
 #### ls -rl | find type -f -name "*.md"**
+
+> Esto es lo mejor por el momento, no intentes buscar dos terminaciones at same time!
 ---
 
 ######Comandos de Ayuda
