@@ -101,6 +101,13 @@ Son los siguientes *, ?, [], [[:clase:]]
 	Busca dentro de **un rango**
 
 
+###### Comando Para Encontrar Archivos
+
+>ls -Rl | find type -f -name "*.md"
+
+
+\*Enlistar de forma recursiva todos los archivos | Encuentra el archivo tipo file nombrado que termine con .md\*
+
 ######Comandos de Ayuda
 
 man: El manual del comando. 
