@@ -133,7 +133,7 @@ ls [[:alpha:]]
 
 #### ls -rl | find type -f -name "*.md"**
 
-> Esto es lo mejor por el momento, no intentes buscar dos terminaciones at same time!
+> Esto es lo mejor por el momento, no intentes buscar dos ***terminaciones at same time***!
 ---
 
 ######Comandos de Ayuda
