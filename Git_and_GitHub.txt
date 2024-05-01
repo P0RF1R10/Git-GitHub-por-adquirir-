@@ -1,4 +1,4 @@
-Se me ocurrio una mejor idea, tener a ambos archivos dentro del mismo repositorio 
+La información más útil here.
 
 
 Git 
