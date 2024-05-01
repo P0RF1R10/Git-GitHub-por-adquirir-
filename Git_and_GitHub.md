@@ -1,17 +1,16 @@
 La información más útil here.
 
 
-Git 
-	Progrma inventado por Linus Torvalds, mismo x de Linux
+# ¿Por qué usar Git?
 
 
-git init: Inicia el repositorio de Git & Crea el directorio .git
-git add: Manda los cambios a staging area
-git commit -m "mensaje": Guarda los cambios 
+## git init: 
+	Inicia el repositorio de Git. 
+	Crea el directorio .git en el directorio actual. 
 
-----
+---
 
-######Estados de un Archivo
+# Estados de un Archivo
 
 ####Untracked
 Unstaged
