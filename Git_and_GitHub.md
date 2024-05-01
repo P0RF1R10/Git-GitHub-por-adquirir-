@@ -14,7 +14,10 @@ https://www.notion.so/pogolo/2-Qu-es-Git-d6016153b9084b5aaa43f221e265ad15#987854
 
 
 ---
-#
+# Instalar Git
+
+https://www.notion.so/pogolo/14-Instalando-Git-65ed57e4ec1b4f66ac99e8e681d70b89
+
 ---
 #
 ---
