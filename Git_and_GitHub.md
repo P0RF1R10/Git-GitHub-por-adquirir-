@@ -19,7 +19,19 @@ https://www.notion.so/pogolo/2-Qu-es-Git-d6016153b9084b5aaa43f221e265ad15#987854
 https://www.notion.so/pogolo/14-Instalando-Git-65ed57e4ec1b4f66ac99e8e681d70b89
 
 ---
-#
+# ¿Qué es WSL 2? 
+
+Una característica de Windows, un subsistema. Es como un paquete que en su interior trae herramientas del mundo de Linux (el kernel completo de una distribución Linux funcional dentro de Windows, una CLI de Linux)
+
+# Tipos de Texto
+
+## .txt
+	Archivo de texto plano, simple. 
+## .rtf
+	Archivo de texto enriquecido. Muchas cosas se le puede agregar a las letras, NO imagenes. 
+## .md
+	Archivo de texto simple, pero con markdown un lenguaje simple para personalizar el texto. 
+
 ---
 #
 ---
