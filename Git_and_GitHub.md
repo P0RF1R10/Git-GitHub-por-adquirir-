@@ -1,5 +1,11 @@
 La información más útil here.
 
+cat -n [file] | less
+	Así buscar desde la Terminal la parte del código que buscamos. 
+
+
+
+---
 
 # ¿Por qué usar Git?
 
@@ -33,11 +39,61 @@ Una característica de Windows, un subsistema. Es como un paquete que en su inte
 	Archivo de texto simple, pero con markdown un lenguaje simple para personalizar el texto. 
 
 ---
-#
+# Introducción a la terminal y línea de comandos 
+
 ---
-#
+# Comandos Básicos en Git
+
+## Comandos
+
+### git status
+	El estados de los archivos. 
+
+### git log [file/branch]
+	Te muestra donde se ha commited el archivo
+	Te muestra los commits de la rama especifica. 
+
+### git rm --cache [file]
+	Eiimina cambios de un archivo especifico del staging area. 
+
+Eliminar cosas de *`staged area`*	
+
+## Configurar git
+*git config*:Ver toda la configuración que tiene git.
+
+*git config --list*: Ver la configuración por defecto de tu git y las cosas que le faltan.
+
+*git config --list --show-origin*: Ver donde están las configuraciones guardadas.
+
+*git config --global user.name "Name"*: Cambiar el nombre de usuario en Git
+
+*git config --global user.email "email"*: Cambiar nuestro email en Git
+
+
+
+
 ---
-#
+# 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
