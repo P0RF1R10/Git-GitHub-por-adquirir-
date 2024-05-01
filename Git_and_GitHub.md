@@ -7,8 +7,24 @@ La información más útil here.
 ## git init: 
 	Inicia el repositorio de Git. 
 	Crea el directorio .git en el directorio actual. 
+---
+# ¿Qué es Git?
+
+https://www.notion.so/pogolo/2-Qu-es-Git-d6016153b9084b5aaa43f221e265ad15#98785438f6f3420f83d778f87fb26534
+
 
 ---
+#
+---
+#
+---
+#
+---
+#
+---
+#
+
+
 
 # Estados de un Archivo
 
