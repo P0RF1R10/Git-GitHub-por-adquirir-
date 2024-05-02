@@ -86,44 +86,29 @@ Para solo ver las diferencias dentro de un archivo y no de todo el proyecto.
 
 *Lo de rojo es lo que había antes, lo de verde es lo que hay ahora.*
 
-
 ---
 
+# 10. ¿Qué es staging area?
+
+git rm --cached [file]
+	quitar cambios de staging area. 
+
+## Estados de un Archivo
+
+### Untracked
+### Staged
+### Tracked
+### Commited
+
+### 11. 
+Apenas iba para esta clase, pero me di cuenta que necesito un proyecto con el cual practicar. 
+Tengo que ponerme a practicar a la par con el curso de HTML y CSS.
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Estados de un Archivo
-
-####Untracked
-Unstaged
-Tracked
-Staged
-Commited
-
-
-Secciones del Flujo de Trabajo con Git
-
-Working directory
-
-Staging Area
-
-Repositorio | Directorio .git
 
 
 ######Git Reset
