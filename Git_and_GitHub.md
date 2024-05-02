@@ -69,14 +69,25 @@ Eliminar cosas de *`staged area`*
 
 *git config --global user.email "email"*: Cambiar nuestro email en Git
 
+---
+# Analizar cambios en los archivos con Git
 
+## git show
+	Muestra la diferencia entre los últimos commits.
+
+## git diff
+>git diff [Commit´s oldest] [Commit's Newer]
+Ver la diferencia entre una versión del proyecto y otra. 
+
+
+>git diff [Commit´s oldest] [Commit's Newer] [file]
+Para solo ver las diferencias dentro de un archivo y no de todo el proyecto. 
+
+
+*Lo de rojo es lo que había antes, lo de verde es lo que hay ahora.*
 
 
 ---
-# 
-
-
-
 
 
 
