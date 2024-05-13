@@ -123,3 +123,64 @@ git reset --soft
 
 
 	
+
+
+
+
+
+
+
+
+
+
+
+
+# Git stash
+Para guardar tus cambios temporalmente e irte a otro lado.
+
+## git stash save "mensaje"
+Guardar los stashes con algún mensaje
+
+### git stash list
+Muestra la lista de cambios temporales
+
+### git stash pop
+Te muestra el git stash más reciente (el último en crearse) en el ¿staging area?, y por ende este se borra de la lista.
+*Ejecutalo donde quieras remotar el trabajo que stashgeaste.*
+>Te muestra el stash
+
+## git stash pop stash@{#}
+Te muestra el stash especifico para seguir la ejecución del trabajo detenido.
+
+
+### git stash drop
+Borra el stash más recientemente guardado.
+>Borra el stash 
+
+### git stash clear
+Borrar todos los stashes
+
+---
+
+## LIFO
+*L*ast *I*n, *F*irst *O*ut 
+
+El stash más reciente = El último stash en crearse. 
+Los más nuevos siempre se les asigna el número 0 y los demás se les va agregando 1 unidad. 
+
+
+---
+
+
+## Elegit un stash especifico |  stash@{#}
+
+### git stash drop stash@{#}
+Borra un stash especifico. Mediante su índice
+
+### git stash branch [branchName] stash@{n}
+Crea una nueva rama con un stash especifico.
+
+---
+
+## Git Stash | Truco
+Puedes modificar un archivo tanto como quieras y *regresar a la versión de un ultimo commit como si nada.* Tan solo ejecutando git stash. 
