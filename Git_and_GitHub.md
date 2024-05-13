@@ -184,3 +184,66 @@ Crea una nueva rama con un stash especifico.
 
 ## Git Stash | Truco
 Puedes modificar un archivo tanto como quieras y *regresar a la versión de un ultimo commit como si nada.* Tan solo ejecutando git stash. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# git commit --amend | Clase 40
+Una forma de hacer cambios al commit más reciente sin tener que hacer un nuevo commmit
+
+
+## Pasos a seguir
+1. Haz los cambios que quieras
+2. git add . / git add file 
+3. git commit -amend
+	3.1 Rescribe el mensaje o dejalo así (funciona como con VIM)
+4. Verifica los cambios con git log --stat
+
+
+### Dudas
+Sirve para ambas 
+A) Modificar el contenido de un commit ?
+B) Modificar el nombre de un commit ?
+    *git commit --amend -m "newMensagge"*: Renombrar el commit más reciente.
+
+*git commit --amend --no-edit*: Solo modificar el commit y no el mensaje de este. 
+
+Cuando solo quieres agregar nuevos cambios al último commit y no cambiar el nombre de este commit tan solo ejecuta este comando: 
+
+## Caution
+Solo se usa para el entorno local. Nunca con un commit en remoto.  
+- Por eso solo mencionan que el `último commit` por seguro este ultimo commit aun lo estas trabajando y aun no lo mandas al repo remoto 🧐👌
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
