@@ -1,9 +1,11 @@
-La información más útil here.
+# La información más útil here.
 
 cat -n [file] | less
 	Así buscar desde la Terminal la parte del código que buscamos. 
 
-
+## Cambiar de nombre a una rama
+Estás en la rama a la que quieres cambiarle el nombre
+Ejecuta: `git branch -m "newName"`
 
 ---
 
