@@ -113,7 +113,7 @@ Tengo que ponerme a practicar a la par con el curso de HTML y CSS.
 
 
 
-######Git Reset
+###### Git Reset
 git reset --hard
 	Borra todo hasta la versión que especificmanete te dirijas 
 git reset --mixed
@@ -189,16 +189,47 @@ Puedes modificar un archivo tanto como quieras y *regresar a la versión de un u
 
 
 
+# Repositorio Remoto | Clase 18 ... 22
+
+En el home ejecuta: 
+	- sudo apt update	
+- ssh-keygen -t ed25519 -C "your email in GitHub@gmail.com"
+
+- eval "$(ssh-agent -s)"
+
+- [ssh-add] [ruta-de-la-llave-privada]
+---
+
+- Crea un nuevo repositorio remoto: https://www.notion.so/pogolo/15-Vincular-la-llave-SSH-8bdf5b05a85245b5935d7f8edb92c8ed?pvs=4#705c54aede4c49498f62b519a5193969
+https://www.notion.so/pogolo/20-Uso-de-GitHub-996047e1e60944b7aa4bef19f4d07979?pvs=4#b92813053c8249ed9d357f1821c4112d
+
+- Verifica con git remote = `origin` o git remote -v =`push fetch`
+
+- git push origin main
+- git pull origin main
+- git pull origin main --allow-unrelated-histories
+- Ahora si viene el bueno: `git push origin main`
 
 
 
+## Cómo proceder cuando el cambio viene de Remoto o Local
 
+> Antes de hacer un push, hacer un pull.
 
+### Remoto => Local
+En el repo local (Terminal) ejecuta el comando `git pull origin main`
 
+Tanto local como remoto ahora son iguales. 
+### Local => Remoto
+El cambio que hagas en local, antes de hacer `git commit`
+- git pull origin main 
+	Estar actualizado
+- git commit -m "bla, bla, bla"
+- git pull origin main 
+	Por si volvieron a actualizar en remoto 
+- Y ahora sí ejecuta: `git push origin main`
 
-
-
-
+> Todo este embrollo es para cuando trabajas en equipo. 
 
 
 # git commit --amend | Clase 40
