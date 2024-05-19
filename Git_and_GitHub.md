@@ -232,6 +232,61 @@ El cambio que hagas en local, antes de hacer `git commit`
 > Todo este embrollo es para cuando trabajas en equipo. 
 
 
+---
+
+Tanto pinche esfuezo para que salga esta mmda: 
+> `git@github.com: Permission denied (publickey).
+> fatal: Could not read from remote repository.
+
+> Please make sure you have the correct access rights
+> and the repository exists.`
+
+
+## Empezar con HTTPS
+- Crea tu repositorio remoto en GitHub
+- Copia el link HTTPS
+- git remote set-url origin [link HTTPS]
+- git remote -v    | git remote 
+	Para comprobar debe saler sentencias con las palabras de fetch y push
+	o solo origin 
+
+En GitHub
+- Ve a la derecha superior (Donde esta tu foto) > Settings > Developer Settings > Personal access tokens > Fine-grained tokens > Generate new token >
+
+- Saldra un pagina para personalizar `lo importante aquí es: Elegir que solo sea para el repo espec & Habilitar todos los permismos 
+- Generar token
+- Guarda la contraseña/sentencia rara/ porque nunca más la volveras a ver.
+
+- Ahora sí: git pull origin main
+	Username & Password
+
+
+---
+# SOLUCIÓN
+Cambiar a HTTPS en lugar de SSH
+A la hora de crear el token habilita todos los perimisos para ese repositorio de gitHub en especifico. 
+
+- Ejecuta `git remote set-url origin [link HTTPS]`
+	Sale en el repositorio remoto en GitHub (el boton verde)
+
+- git pull origin main
+	Te pedirá User y password. 
+		El user puede ser tu username de GitHub / tu email (al parecer)
+		El password 
+Tienes que crear un token 
+	A la derecha superior (Donde esta tu foto) > Settings > Developer Settings > Personal access tokens > Fine-grained tokens > Generate new token >
+	Saldra un pagina para personalizar `lo importante aquí es: Elegir que solo sea para el repo espec & Habilitar todos los permismos (No se que permiso hizo que si se aceptara la contraseña) 
+	No se que cosa si no se habilida no se acepta la contraseña
+- Generar token
+- Guarda la contraseña/sentencia rara/ porque nunca más la volveras a ver.
+
+- Ahora sí: git pull origin main
+	Username & Password
+
+
+
+
+
 # git commit --amend | Clase 40
 Una forma de hacer cambios al commit más reciente sin tener que hacer un nuevo commmit
 
