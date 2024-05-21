@@ -245,7 +245,7 @@ Tanto pinche esfuezo para que salga esta mmda:
 ## Empezar con HTTPS
 - Crea tu repositorio remoto en GitHub
 - Copia el link HTTPS
-- git remote set-url origin [link HTTPS]
+- git remote add origin [link HTTPS]
 - git remote -v    | git remote 
 	Para comprobar debe saler sentencias con las palabras de fetch y push
 	o solo origin 
@@ -283,7 +283,9 @@ Tienes que crear un token
 - Ahora sí: git pull origin main
 	Username & Password
 
-
+# Caution
+Creo que tengo un error porque mi rama principal en local se llama minimalist y tengo otra llamad origin 
+En remoto no se como este configurado las ramas. Tengo miedo. 
 
 
 
